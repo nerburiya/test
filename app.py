@@ -1,7 +1,10 @@
 import streamlit as st
 
-st.title("Hello World")
-st.write("Hello supsup")
-st.write("# 큰 글자")
-st.write("## 덜 큰 글자")
-st.write("### 덜 덜 큰 글자")
+st.title("nerburiya의 페이지")
+st.header("Hello, statistics!")
+
+name = st.text_input("이름이 무엇인가요?")
+if name != "":
+    st.write(f"# 😃 반가워요, {name}님!")
+    st.balloons()
+    
